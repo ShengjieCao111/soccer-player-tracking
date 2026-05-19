@@ -1,4 +1,14 @@
-echo "# 足球球员多目标跟踪与运动分析" > README.md
-git add README.md
-git commit -m "add README"
-git push
+# 足球球员多目标跟踪与运动分析
+
+本项目基于 Python + OpenCV 实现足球视频球员跟踪、轨迹提取、速度统计、中线越界检测、运动热力图生成。
+
+## 功能
+- 多目标跟踪（CSRT/KCF/MOSSE）
+- 实时速度计算、平均/最大速度统计
+- 中线越界检测
+- 球员运动热力图可视化
+
+## 文件说明
+- soccer.ipynb - 主程序
+- soccer_03.mp4 / soccer_06.mp4 / soccer_07.mp4 - 测试视频
+- hot.jpg - 球场背景图/热力图
